@@ -11,6 +11,6 @@ with open("Salary_Data.csv", "r") as file:
         else:
             young.append(int(line["Salary"]))
 
-print(sum(young)/len(young))
-print(sum(adult)/len(adult))
+print(sum(young) / len(young))
+print(sum(adult) / len(adult))
         
